@@ -1,0 +1,108 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+._car{
+  /* width: 50%; */
+  margin: 10rem auto;
+  /* height: 570px; */
+  background-color:rgba(215, 212, 212, 0.08);
+  border-radius: 30px;
+
+}
+.slick-track{
+    margin: 10vh 0;
+   
+}
+.arrow {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    }
+.slide img{
+    border-radius: 10px;
+}
+.carasoul{
+    margin-left: 30px;
+  margin-right: 30px;
+}
+.slide img {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.7);
+  transition: transform 500ms;
+  opacity: 0.1;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+@media (max-width: 864px) {
+    .carasoul {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .slide{
+        transform: scale(0.5);
+      }
+      .activeSlide {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      .slide img{
+        width: 17rem;
+  height: 17rem;
+      }
+}
+@media (max-width: 660px){
+    .slide img {
+        width: 13rem;
+        height: 13rem;
+      }
+}
+@media (max-width: 500px){
+    .slide {
+        transform: scale(0.1);
+        transition: transform 500ms;
+        opacity: 0.1;
+      }
+      .activeSlide {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      .slide img{
+        transform: translateX(-35px);
+      }
+}

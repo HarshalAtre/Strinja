@@ -1,0 +1,31 @@
+.pro{
+    color: #ffffff56;
+    display: grid;
+    place-items: center;
+    min-height: 70vh;
+    align-content: center;
+    background-color: transparent ;
+
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.show{
+    opacity:1;
+    filter:blur(0)
+}
+
+h2 {
+    
+    font-size: 35px;
+    line-height: 54px;
+}
+.strinja{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top:40px ;
+}

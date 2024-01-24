@@ -1,0 +1,111 @@
+.footer_credits{
+    padding: 40px 80px;
+    color: #ffffff;
+}
+#light .footer_credits{
+    background-color: #dcdcdc8f;
+
+}
+#dark .footer_credits{
+    background-color: #ffffff1d;
+
+}
+._logo {
+    height: 100px;
+    width: 180px;
+  }
+  
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+footer .logo{
+    margin-bottom: 30px;
+    height: 100%;
+    width: 300px;
+}
+
+footer .padded{
+    padding-bottom: 25px;
+}
+
+footer .bottom{
+    padding-top:18px;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+footer .store{
+    height: 130px;
+    width: 131px;
+    padding-top: 20px;
+}
+footer .visa{
+    height: 25px;
+    width: 79px;
+}
+footer .rupay{
+    height: 25px;
+    width:95px;
+}
+footer .mc{
+
+    height: 25px;
+    width: 32px;
+}
+footer .ax{
+    height: 25px;
+    width: 25px;
+    
+}
+footer .payment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.credits{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-bottom:10px;
+}
+footer p{
+    font-size: 13px;
+    margin:0 0 8px 0;
+}
+.icon {
+    width: 23px;
+    display: flex;
+    gap: 5px;
+  }
+
+@media screen and (max-width: 650px) {
+.map{
+    display: none;
+}
+
+}
+/* @media screen and (max-width: 400px) {
+    footer p {
+        font-size: 10px;
+        margin: 0 0 8px 0;
+        width: 62vw;
+      }
+} */

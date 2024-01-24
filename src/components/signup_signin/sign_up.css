@@ -1,0 +1,143 @@
+section{
+    position: relative;
+    width: 100%;
+    top: 60px;
+    min-height:100vh;  
+    margin-top: 70px; 
+}
+
+.sign_container2{
+    width: 85%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign_header2{
+    padding-bottom: 50px;
+}
+
+.sign_header2 img{
+    width: 200px;
+    margin-top: -40px;
+    cursor: pointer;
+    
+}
+
+.sign_form2{
+    
+    padding: 10px 30px;
+    margin-top: -50px;
+    border: 1px solid #ffffff;  
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.sign_form2 h2{
+    font-weight: 600;
+    font-size: 27px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.sign_form2 label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    color: #ffffff;
+}
+
+.sign_form2 input{
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid #ffffff;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.sign_form2 button{
+    margin-top: 7px;
+    margin-bottom: 50px;
+    width: auto;
+    padding: auto;
+    margin-left: 30px;
+    font-size: 16px;
+    background-color: #ad1d10;
+    color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+    border:none;
+    transition: 0.2s ease;
+}
+.sign_form2 .signin_btn2:hover{
+    background-color: #ffffff;
+    color:white
+}
+
+
+.sign_form2 .signin_info2{
+    margin-top: 23px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sign_form2 .signin_info2 p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+.sign_form2 .signin_info2 NavLink{
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-left: 5px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight:600;
+}
+
+
+/* for login page */
+.create_accountinfo2 p{
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.create_accountinfo2 button{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: auto;
+    padding: auto;
+    margin-left: 0px;
+    font-size: 13px;
+    background-color: #1a1a1a;
+    color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    cursor: pointer;
+    border:none;
+    transition: 0.2s ease;
+}
+.create_accountinfo2 button:hover{
+    background-color: #2bac10;
+}
+
+.create_accountinfo2 a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}

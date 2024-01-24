@@ -1,0 +1,66 @@
+{
+  "name": "clientd",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.16",
+    "@mui/base": "^5.0.0-beta.30",
+    "@mui/icons-material": "^5.15.3",
+    "@mui/joy": "^5.0.0-beta.21",
+    "@mui/material": "^5.11.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.3.1",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-file-picker": "^0.0.6",
+    "react-hook-form": "^7.49.2",
+    "react-icons": "^4.12.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.3",
+    "react-switch": "^7.0.0",
+    "react-tilt": "^1.0.2",
+    "react-toggle-dark-mode": "^1.1.1",
+    "sass": "^1.69.7",
+    "slick-carousel": "^1.8.1",
+    "vanilla-tilt": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

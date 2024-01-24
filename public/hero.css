@@ -1,0 +1,41 @@
+body{
+    background:#ffffff;
+}
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+rect {
+    fill: white;
+    border-radius: 540px;
+}
+
+text {
+    font-size: 0.80297397769517em;
+    fill: black;
+}
+
+text.l {
+    font-size: 0.50185873605948em;
+    fill: black;
+    display: none;
+}
+.line {
+    visibility: hidden;
+    animation: 1s show infinite;
+  }
+line {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+    stroke-width: 0.31315985130112;
+    stroke: rgb(0, 0, 0);
+}

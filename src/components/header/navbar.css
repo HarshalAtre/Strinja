@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 2000;
+    background-color: rgba(255, 255, 255, 0.176);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(4px);
+    display: none;
+    translate: 250
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    text-decoration: none;
+}
+
+.sidebar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 80px;
+    background-color: #ffffff1d;
+    backdrop-filter: blur(5px) brightness(110%);
+    z-index: 2000;
+    box-shadow: 0px 1px 8px #00000034;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar.active {
+    display: flex;
+    /* translate animation */
+}
+
+/* rest of your CSS code... */
+
+
+.sidebar_btn a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.menue {
+    color: white;
+    margin-left: 10px;
+}
+
+
+#light {
+    --color-bg1: #ffffff;
+    --color-bg2: #ffffff;
+}
+
+#dark {
+    --color-bg1: #010922;
+    --color-bg2: #010922;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffffff1d;
+    backdrop-filter: blur(5px) brightness(110%);
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 1px 8px #00000034;
+}
+
+
+header nav .navlogo img {
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: left;
+}
+
+header nav .left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.no{
+    display: none;
+}
+
+header nav .left input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+header nav .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .right .nav_btn a {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    text-decoration: none;
+    margin-right: 2px;
+    padding: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+header nav .right .nav_btn :hover {
+    font-weight: 600;
+}
+
+header nav .right .cart_btn {
+    display: flex;
+    margin-left: 22px;
+    cursor: pointer;
+    margin-top: 2px;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3px;
+}
+
+header nav .right .cart_btn:hover {
+    color: #2b8c10;
+}
+
+header nav .right .cart_btn #icon {
+    margin-right: 10px;
+    color: #1a1a1a;
+    margin-top: 2px;
+}
+
+header nav .right .cart_btn #icon:hover {
+    color: #2b8c10;
+}
+
+header nav .right .cart_btn p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+header nav .avtar {
+    cursor: pointer;
+    margin-left: 22px;
+}
+
+header .hamburgur {
+    display: none;
+}
+
+header .extrasearch {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 50px;
+    width: 440px;
+}
+
+header .extrasearch a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* drawer sty */
+header nav .drawer {
+    width: 250px;
+    background-color: red;
+}
+
+@media(min-width:800px) {
+    .menue {
+        display: none;
+    }
+}
+
+
+@media (max-width:800px) {
+    .right {
+        display: none;
+    }
+
+    .menue {
+        display: block;
+    }
+    .no{
+        display: block;
+    }
+
+
+
+    header .hamburgur {
+        display: block;
+    }
+
+    header nav {
+        overflow: hidden;
+    }
+
+    header nav .right .nav_btn,
+    header nav .right .avtar2,
+    header nav .right .avtar {
+        display: none;
+    }
+
+    header nav .left input {
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    header nav .left input::placeholder {
+        visibility: hidden;
+    }
+
+    header nav .right .cart_btn {
+        margin-right: 0;
+    }
+
+
+}
+
+@media (max-width:568px) {
+
+    header nav .left input {
+        display: none;
+    }
+
+    header nav .navlogo img {
+        width: 95px;
+        margin-top: 14px;
+        margin-left: 67px;
+    }
+}

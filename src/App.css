@@ -1,0 +1,297 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#light header nav .right .nav_btn a{
+  color:#010922;
+}
+#dark header nav .right .nav_btn a{
+  color:#ffffff;
+}
+
+/* hero */
+
+#dark .hero .left{
+  color:#ffffff;
+}
+#light .hero .left{
+  color:#010922;
+}
+
+#dark .hero .left h2{
+  color:#ffffff;
+}
+#light .hero .left h2{
+  color:#010922;
+}
+
+
+/* slide */
+
+#dark .product_section{
+  color:#ffffff;
+}
+#light .product_section{
+  color:#010922;
+}
+
+/* pop */
+
+#dark .pro{
+  color: #ffffff56;
+}
+#light .pro{
+  color: #01092273;
+}
+
+
+
+#dark .strinja{
+  color: #ffffff;
+}
+#light .strinja{
+  color: #010922;
+}
+
+/* banner3 */
+
+#dark #newsletter h4{
+  color: #ffffff;
+}
+#light #newsletter h4{
+  color: #010922;
+}
+
+#dark #newsletter p{
+  color: #ffffff;
+}
+#light #newsletter p{
+  color: #010922;
+}
+
+/* footer */
+
+
+#dark .footer_credits{
+  color: #ffffff;
+}
+#light .footer_credits{
+  color: #010922;
+}
+
+#dark .col a{
+  color: #ffffff;
+}
+#light .col a{
+  color: #010922;
+}
+
+/* abt */
+
+#dark .all{
+  color: #ffffff;
+}
+#light .all{
+  color: #010922;
+}
+
+#dark .contact-form {
+  color: #ffffff;
+}
+#light .contact-form {
+  color: #010922;
+}
+
+#dark .title  {
+  color: #ffffff;
+}
+#light .title {
+  color: #010922;
+}
+
+#dark .contact-info .title  {
+  color: #ffffff;
+}
+#light .contact-info .title {
+  color: #010922;
+}
+
+#dark .social-media p   {
+  color: #ffffff;
+}
+#light .social-media p  {
+  color: #010922;
+}
+#light .MuiTypography-root {
+  color: #010922;
+}
+#dark .MuiTypography-root{
+  color: white;
+
+}
+#dark .gallery{
+  background-color: rgba(215, 215, 215, 0.078);
+
+}
+#light .gallery{
+  background-color: rgba(215, 215, 215, 0.078);
+
+}
+#light ._car h2{
+  color: #010922;
+}
+#dark ._car h2{
+  color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#light{
+  --color-bg1: #ffffff;
+  --color-bg2: #ffffff;
+}
+
+#dark {
+  --color-bg1: #010922;
+  --color-bg2: #010922;
+}
+
+/* navbar */
+
+#light header nav .right .nav_btn a{
+  color:#010922;
+}
+#dark header nav .right .nav_btn a{
+  color:#ffffff;
+}
+
+/* hero */
+
+#dark .hero .left{
+  color:#ffffff;
+}
+#light .hero .left{
+  color:#010922;
+}
+
+#dark .hero .left h2{
+  color:#ffffff;
+}
+#light .hero .left h2{
+  color:#010922;
+}
+
+
+/* slide */
+
+#dark .product_section{
+  color:#ffffff;
+}
+#light .product_section{
+  color:#010922;
+}
+
+/* pop */
+
+#dark .pro{
+  color: #ffffff56;
+}
+#light .pro{
+  color: #01092273;
+}
+
+
+
+#dark .strinja{
+  color: #ffffff;
+}
+#light .strinja{
+  color: #010922;
+}
+
+/* banner3 */
+
+#dark #newsletter h4{
+  color: #ffffff;
+}
+#light #newsletter h4{
+  color: #010922;
+}
+
+#dark #newsletter p{
+  color: #ffffff;
+}
+#light #newsletter p{
+  color: #010922;
+}
+
+/* footer */
+
+
+#dark .footer_credits{
+  color: #ffffff;
+}
+#light .footer_credits{
+  color: #010922;
+}
+
+#dark .col a{
+  color: #ffffff;
+}
+#light .col a{
+  color: #010922;
+}
+
+#light ._car h2{
+  color: #282c34;
+}
+#dark ._car h2{
+  color:#ffffff;
+}
+#light .social-icons a{
+  color:#282c34
+}
+#dark .social-icons a{
+  color: #ffffff;
+}
+#light .contact-info {
+  background-color: #82ffd04f;
+}
+#light .contact-form form{
+  background-color:#82ffd04f ;
+}
+.contact-form::before{
+  z-index: 101;
+}
