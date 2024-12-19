@@ -1,32 +1,86 @@
-# Strinja
-Strinja Art Gallery Website
-Welcome to Strinja Art Gallery, a captivating online platform developed for art enthusiasts as part of the GWOC. Our mission is to redefine the art exploration experience by offering an immersive digital gallery that goes beyond traditional confines. Hosted at website-main-liart.vercel.app, this user-friendly website invites visitors to embark on a visual journey across various artistic expressions.
+# NeuralChat: A Comprehensive Chat Application
 
-Specifications
-Pages
-Landing Page: Crafted to be inviting, the landing page sparks curiosity with a compelling introduction. Vibrant images and captivating artwork previews set the stage for an art-filled exploration.
+NeuralChat is an advanced chat application that seamlessly combines real-time communication with machine learning features to enhance user interaction. The app includes functionalities like "Auto-Suggestion," which provides accurate text predictions as users type, and "Emojify," a tool that suggests relevant emojis based on sentence context. With these innovations, NeuralChat not only facilitates instant messaging but also elevates the overall user experience.
 
-About Us Page: Delivers a concise overview of Strinja, outlining our commitment to art and the driving passion behind our mission and vision.
+## Key Features
 
-Gallery Page: Showcases a diverse selection of artworks, allowing visitors to browse through different styles and genres, fostering a rich and engaging art discovery experience.
+### Real-Time Communication
 
-Contact Us Page: Provides comprehensive contact details, including email addresses, phone numbers, and the physical address of the Strinja shop. Social media links enhance connectivity with the gallery.
+- Implemented using **Socket.io**, enabling seamless and instantaneous messaging between users.
+- Integrated with a notification system to alert users about **new messages** and **friend requests**, ensuring effective engagement.
 
-Features
-WhatsApp Integration: Each gallery item features a WhatsApp icon, enabling users to generate a pre-filled message expressing interest in purchasing a particular artwork. This user-friendly feature streamlines inquiries and facilitates direct communication between potential buyers and the gallery owner.
+### State Management
 
-User-Friendly Artwork Management: A straightforward interface empowers gallery owners to add or delete images effortlessly, ensuring the displayed artwork collection is dynamic and up-to-date.
+- Utilized **Redux** and **RTK Query** to handle application state efficiently and facilitate asynchronous data fetching.
+- Managed over 10+ query states to ensure robust and scalable application performance.
 
-Getting Started
-Explore the Strinja Art Gallery at website-main-liart.vercel.app. Your journey into the world of art begins here.
+### Search and Discovery
 
-Contributing
-Contribute to the Strinja Art Gallery project by forking the repository, making your changes, and submitting a pull request. Your input is valued, and we welcome new ideas and improvements.
+- Developed a search functionality allowing users to find others by name, enhancing the app’s usability.
 
-Issues
-Encounter a bug or have a suggestion? Open an issue on the GitHub repository to help us enhance the user experience.
+### Machine Learning Integrations
 
-License
-This project is licensed under the MIT License. Feel free to use, modify, and share it under the outlined terms.
+#### Auto-Suggestion
 
-Thank you for joining us on this art-filled journey at Strinja Art Gallery! Enjoy the diverse collection and the immersive experience we've curated for you.
+- Built an auto-complete feature with **85% accuracy** to predict and suggest text during chats, improving typing efficiency and reducing response time.
+
+#### Emojify
+
+- Designed a recommendation engine using **Recurrent Neural Networks (RNN)** and **Flask** to suggest up to five relevant emojis for a given sentence with **70% precision**, making conversations more expressive and engaging.
+
+### User Experience
+
+- Constructed a fully responsive design using **Material-UI (MUI)** to ensure 100% compatibility across mobile devices.
+- Focused on accessibility and user-friendly design principles to deliver an optimized chatting experience.
+
+## Technical Stack
+
+- **Frontend**: React.js, Material-UI
+- **Backend**: Node.js, Flask (for ML models)
+- **Database**: MongoDB
+- **Real-Time Communication**: WebSockets, Socket.io
+
+## How It Works
+
+1. **Real-Time Messaging**: Messages are transmitted via WebSockets using Socket.io, ensuring instant delivery.
+2. **Notification System**: A backend listener monitors friend requests and messages, triggering real-time notifications.
+3. **Search and Auto-Suggestion**: Leveraging Redux and RTK Query for efficient query handling, users can search for friends or rely on the auto-suggest feature for rapid responses.
+4. **Emoji Recommendations**: The Emojify feature processes user sentences through an RNN model served by Flask, analyzing context and suggesting fitting emojis to enhance communication.
+
+## Installation
+
+To run NeuralChat locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/NeuralChat.git
+   cd NeuralChat
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   cd client && npm install
+   ```
+3. Start the servers:
+   - Start the **Express.js backend server**:
+     ```bash
+     npm run server
+     ```
+   - Start the **Flask server**:
+     ```bash
+     python app.py
+     ```
+   - Start the **React.js frontend**:
+     ```bash
+     cd client
+     npm start
+     ```
+
+## Future Enhancements
+
+- **Enhanced ML Models**: Improve the accuracy of Auto-Suggestion and Emojify.
+- **Voice and Video Chat**: Extend functionality to support multimedia communication.
+- **Language Support**: Include multi-language support for a global user base.
+
+Feel free to contribute, suggest features, or raise issues by opening a pull request!
+
