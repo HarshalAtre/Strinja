@@ -2,6 +2,7 @@
 
 Welcome to Strinja Art Gallery, a captivating online platform developed for art enthusiasts as part of the GWOC. Our mission is to redefine the art exploration experience by offering an immersive digital gallery that goes beyond traditional confines. Hosted at [Strinja Art Gallery](https://website-main-liart.vercel.app), this user-friendly website invites visitors to embark on a visual journey across various artistic expressions.
 
+**CLICK IMAGE TO WATCH VIDEO**
 [![Watch the demo video](https://i.imgur.com/pvQzZRY.png)](https://drive.google.com/file/d/1_yMYcT7GSc78mRAMM62MV13ZG6ZGKjhe/view)
 
 ## Specifications
